@@ -1,22 +1,48 @@
 {
 	"songs": [
-		["Spookeez", "spooky", [34, 51, 68]],
-		["South", "spooky", [34, 51, 68]],
-		["Monster", "monster", [34, 51, 68]]
+		[
+			"aww",
+			"arwin",
+			[
+				255,
+				154,
+				0
+			]
+		],
+		[
+			"winning",
+			"arwin",
+			[
+				255,
+				154,
+				0
+			]
+		],
+		[
+			"what",
+			"arwin",
+			[
+				255,
+				154,
+				0
+			]
+		]
 	],
-
+	"hideFreeplay": false,
+	"weekBackground": "house",
 	"weekCharacters": [
-		"spooky",
+		"arwin",
 		"bf",
 		"gf"
 	],
-	"weekBackground": "halloween",
-
-	"storyName": "Spooky Month",
-	"weekBefore": "week1",
-	"weekName": "Week 2",
-	"startUnlocked": true,
-
+	"storyName": "owo who dis",
+	"weekName": "pp",
+	"freeplayColor": [
+		255,
+		154,
+		0
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekBefore": "tutorial",
+	"startUnlocked": true
 }

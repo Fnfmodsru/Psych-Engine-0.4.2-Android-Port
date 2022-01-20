@@ -1,22 +1,39 @@
 {
 	"songs": [
-		["Pico", "pico", [148, 22, 83]],
-		["Philly Nice", "pico", [148, 22, 83]],
-		["Blammed", "pico", [148, 22, 83]]
+		[
+			"pain",
+			"umballspook",
+			[
+				131,
+				214,
+				255
+			]
+		],
+		[
+			"fucked",
+			"arwin",
+			[
+				255,
+				154,
+				0
+			]
+		]
 	],
-
+	"hideFreeplay": false,
+	"weekBackground": "nothing",
 	"weekCharacters": [
-		"pico",
+		"",
 		"bf",
-		"gf"
+		""
 	],
-	"weekBackground": "philly",
-
-	"storyName": "PICO",
-	"weekBefore": "week2",
-	"weekName": "Week 3",
-	"startUnlocked": true,
-
+	"storyName": "you're gonna die",
+	"weekName": "umball and arwin",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekBefore": "week2",
+	"startUnlocked": false
 }
