@@ -1,0 +1,7 @@
+{
+  "animation": {
+    "idle": "Penny Idle"
+  },  
+  "scale": 0.8,
+  "offset": [25,85]
+}
