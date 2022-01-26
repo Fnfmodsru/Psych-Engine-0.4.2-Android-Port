@@ -59,6 +59,8 @@ class ChartingState extends MusicBeatState
 		'Hurt Note',
 		'GF Sing',
 		'No Animation'
+		'Ball Notes'
+		'Square Notes'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -931,7 +933,6 @@ class ChartingState extends MusicBeatState
 			loopCheck.checked = curNoteSelected.doesLoop;
 			tooltips.add(loopCheck, {title: 'Section looping', body: "Whether or not it's a simon says style section", style: tooltipType});
 			bullshitUI.add(loopCheck);
-
 		 */
 	}
 
@@ -1918,23 +1919,18 @@ class ChartingState extends MusicBeatState
 		function calculateSectionLengths(?sec:SwagSection):Int
 		{
 			var daLength:Int = 0;
-
 			for (i in _song.notes)
 			{
 				var swagLength = i.lengthInSteps;
-
 				if (i.typeOfSection == Section.COPYCAT)
 					swagLength * 2;
-
 				daLength += swagLength;
-
 				if (sec != null && sec == i)
 				{
 					trace('swag loop??');
 					break;
 				}
 			}
-
 			return daLength;
 	}*/
 	private var daSpacing:Float = 0.3;
